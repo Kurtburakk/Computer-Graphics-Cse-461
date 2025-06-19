@@ -1,0 +1,166 @@
+<scene>
+    <maxraytracedepth>3</maxraytracedepth>
+    <backgroundColor>0 0 0</backgroundColor>
+    <camera>
+        <position>0 0 5</position>
+        <gaze>0 0 -1</gaze>
+        <up>0 1 0</up>
+        <nearPlane>-1 1 -1 1</nearPlane>
+        <neardistance>1</neardistance>
+        <imageresolution>800 800</imageresolution>
+    </camera>
+    <lights>
+        <ambientlight>25 25 25</ambientlight>
+        <pointlight id="1">
+            <position>0 5 5</position>
+            <intensity>400 400 400</intensity>
+        </pointlight>
+        <pointlight id="2">
+            <position>-4 2 -4</position>
+            <intensity>250 250 250</intensity>
+        </pointlight>
+        <pointlight id="3">
+            <position>4 2 -4</position>
+            <intensity>250 250 250</intensity>
+        </pointlight>
+        <triangularlight id="4">
+            <vertex1>-3 5 -3</vertex1>
+            <vertex2>3 5 -3</vertex2>
+            <vertex3>0 5 -7</vertex3>
+            <intensity>150 150 150</intensity>
+        </triangularlight>
+    </lights>
+    <materials>
+        <material id="1">
+            <ambient>0.2 0.2 0.2</ambient>
+            <diffuse>0.8 0.8 0.8</diffuse>
+            <specular>0.5 0.5 0.5</specular>
+            <mirrorreflactance>0.3 0.3 0.3</mirrorreflactance>
+            <phongexponent>64</phongexponent>
+            <texturefactor>1</texturefactor>
+        </material>
+        <material id="2">
+            <ambient>0.3 0.3 0.3</ambient>
+            <diffuse>0.7 0.7 0.7</diffuse>
+            <specular>0 0 0</specular>
+            <mirrorreflactance>0 0 0</mirrorreflactance>
+            <phongexponent>1</phongexponent>
+            <texturefactor>0</texturefactor>
+        </material>
+        <material id="3">
+            <ambient>0.1 0.1 0.1</ambient>
+            <diffuse>0.2 0.2 0.2</diffuse>
+            <specular>1 1 1</specular>
+            <mirrorreflactance>1 1 1</mirrorreflactance>
+            <phongexponent>128</phongexponent>
+            <texturefactor>0</texturefactor>
+        </material>
+        <material id="4">
+            <ambient>0.1 0.4 0.1</ambient>
+            <diffuse>0.2 0.8 0.2</diffuse>
+            <specular>0.2 0.2 0.2</specular>
+            <mirrorreflactance>0 0 0</mirrorreflactance>
+            <phongexponent>32</phongexponent>
+            <texturefactor>0</texturefactor>
+        </material>
+    </materials>
+    <vertexdata>
+        -5 -1 0
+         5 -1 0
+         5 -1 -8
+        -5 -1 -8
+        -5 -1 -8
+         5 -1 -8
+         5  5 -8
+        -5  5 -8
+        -4 -1 -4
+        -4 -1 -2
+        -4  1 -4
+        -4  1 -2
+        -2 -1 -4
+        -2 -1 -2
+        -2  1 -4
+        -2  1 -2
+         0.634 -1 -3.366
+         2.366 -1 -4.366
+         3.366 -1 -2.634
+         1.634 -1 -1.634
+         2  1 -3
+    </vertexdata>
+    <texturedata>
+        0 0
+        1 0
+        1 1
+        0 1
+        0 0
+        1 0
+        1 1
+        0 1
+        0 0
+        0 0
+        0 0
+        0 0
+        0 0
+        0 0
+        0 0
+        0 0
+        0 0
+        1 0
+        1 1
+        0 1
+        0.5 0.5
+    </texturedata>
+    <normaldata>
+        0 1 0
+        0 0 1
+        -0 0 -1
+        -1 0 0
+        1 0 0
+        0 1 0
+        0 -1 0
+        0.707 0 0.707
+        -0.5 0 0.866
+        -0.366 0 0.930
+        -0.707 0 -0.707
+    </normaldata>
+    <textureimage>test3.png</textureimage>
+    <objects>
+        <mesh id="1">
+            <materialid>1</materialid>
+            <faces>
+                1/1/1 2/2/1 3/3/1
+                1/1/1 3/3/1 4/4/1
+            </faces>
+        </mesh>
+        <mesh id="2">
+            <materialid>2</materialid>
+            <faces>
+                5/5/2 6/6/2 7/7/2
+                5/5/2 7/7/2 8/8/2
+            </faces>
+        </mesh>
+        <mesh id="3">
+            <materialid>3</materialid>
+            <faces>
+                10/10/3 14/14/3 16/16/3
+                10/10/3 16/16/3 12/12/3
+                9/9/4 10/10/4 12/12/4
+                9/9/4 12/12/4 11/11/4
+                11/11/5 12/12/5 16/16/5
+                9/9/6 13/13/6 15/15/6
+                9/9/6 15/15/6 10/10/6
+            </faces>
+        </mesh>
+        <mesh id="4">
+            <materialid>4</materialid>
+            <faces>
+                21/21/8 17/17/8 18/18/8
+                21/21/9 18/18/9 19/19/9
+                21/21/10 19/19/10 20/20/10
+                21/21/10 20/20/10 17/17/10
+                17/17/11 20/20/11 19/19/11
+                17/17/11 19/19/11 18/18/11
+            </faces>
+        </mesh>
+    </objects>
+</scene>

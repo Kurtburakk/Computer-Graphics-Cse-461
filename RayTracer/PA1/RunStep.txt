@@ -1,0 +1,9 @@
+The homework is written in C++11. Here are the steps to run it:
+
+• make clean
+• make
+• ./program your_pathname/cghw1/examplexml/example.xml
+
+
+You should change your_pathname accordingly to location of the this file.
+If you want to test with different XML files, you should change example.xml to the name of the XML file you want to use.
