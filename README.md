@@ -4,14 +4,14 @@ A collection of computer graphics programming assignments implemented in C++ and
 
 ## 📚 Projects
 
-### 🎮 [OpenGL Assignment](./OpenGL/OpenGLAssignment)
+### 🎮 [OpenGL - PA2](./OpenGL/OpenGLAssignment)
 Modern OpenGL-based 3D scene renderer featuring:
 - Real-time 3D rendering with Phong lighting
 - Interactive camera controls
 - Texture mapping and material system
 - VAO/VBO buffer management
 
-### 🌟 [Ray Tracer - PA1](./RayTracer/PA1)
+### 🎮 [Ray Tracer - PA1](./RayTracer/PA1)
 CPU-based ray tracer with advanced rendering features:
 - Ray-triangle intersection algorithms
 - Recursive reflections and shadows
